@@ -11423,7 +11423,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var MainPage = function MainPage() {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'flex-container' },
     _react2.default.createElement(
       'span',
       null,

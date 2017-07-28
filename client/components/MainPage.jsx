@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 
 const MainPage = () => {
   return (
-    <div>
-      {/* <img src=`horoeka.jpg` className="horoeka-pic">  */}
+    <div className="flex-container">
       <span><img src={`/images/horoeka.jpg`} className="actual-img" /></span>
       <span><Link to={`/quiz/1`}> <button className="start-button">Start Quiz</button></Link></span>
     </div >

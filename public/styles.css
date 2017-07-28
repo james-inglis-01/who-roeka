@@ -48,5 +48,12 @@ font-size: 50px;
 .horoeka {
   width: 15%;
   height: auto;
+  padding: 0px,0px,100px;
+}
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
