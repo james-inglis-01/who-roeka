@@ -1,7 +1,7 @@
 
 
 body {
-font-family: sans-serif
+font-family: 'Lobster Two', cursive;
 }
 
 #root{
@@ -22,7 +22,7 @@ font-family: sans-serif
 } 
 
 .content {
-color: #009900;
+color: teal;
 font-size: 50px;
 }
 
@@ -45,7 +45,8 @@ font-size: 50px;
   font-family: 'Capriola', sans-serif;
 }
 
-.actual-img {
+.horoeka {
   width: 15%;
   height: auto;
+
 }
