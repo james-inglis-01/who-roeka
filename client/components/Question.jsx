@@ -47,8 +47,8 @@ class Questions extends React.Component {
           })}
         </div>
         <div>
-        <Footer score={this.props.score}/>
-          </div>
+          <Footer score={this.props.score} />
+        </div>
 
       </div>
     )
