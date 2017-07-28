@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Footer from 'Footer'
+import Footer from './Footer'
+
 class Questions extends React.Component {
   constructor (props) {
     super(props)
