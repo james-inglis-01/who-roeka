@@ -4,6 +4,7 @@ import { render } from 'react-dom'
 import questions from '../../public/data/questions'
 import people from '../../public/data/people'
 
+import Score from './Score'
 import FinalPage from './FinalPage'
 import MainPage from './MainPage'
 import Question from './Question'
@@ -29,6 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+
         <div className='content'>
           <h1>Who-roeka Quiz 2017 Edition</h1>
           <Route exact path='/' component={MainPage} />
@@ -46,6 +48,7 @@ class App extends React.Component {
           }} />
           <Route path='/result' render={FinalPage} />
         </div>
+
 
       </Router>
     )
