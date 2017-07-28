@@ -3,8 +3,9 @@ import React from 'react'
 this needs to be passed down props which contain the Score
 */
 function Score(props) {
-  let  score = props.score
-  console.log(score.score)
+  let score = props.score
+    console.log(props)
+  console.log(score)
   const textArray = ["You know knothing", "Pay more attention plz!", "observant kween", "Get out more wierdo!"]
   let text = ""
   if (score < 4) {
