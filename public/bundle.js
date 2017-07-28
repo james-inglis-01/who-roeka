@@ -11503,7 +11503,7 @@ function FinalPage(props) {
   );
 }
 
-exports.default = finalPage;
+exports.default = FinalPage;
 
 /***/ }),
 /* 100 */

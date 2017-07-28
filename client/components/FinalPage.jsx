@@ -2,16 +2,16 @@ import React from 'react'
 import Score from './Score'
 
 
-function FinalPage (props) {
+function FinalPage(props) {
   return (
     <div className="finalPage">
 
       <h1> Finnishd </h1>
-    <Score {...props}/>
+      <Score {...props} />
 
     </div>
   )
 }
 
-export default finalPage
+export default FinalPage
 
