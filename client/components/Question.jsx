@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-
+import Footer from 'Footer'
 class Questions extends React.Component {
   constructor (props) {
     super(props)
@@ -39,6 +39,9 @@ class Questions extends React.Component {
                   <img src={`/images/${personImg}.png`} name={personObj.id} className="actual-img" />
                 </button></div>)
           })}
+        </div>
+        <div>
+          <Footer score={this.props.score}/>
         </div>
       </div>
     )
