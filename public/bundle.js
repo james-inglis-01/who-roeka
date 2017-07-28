@@ -11421,18 +11421,26 @@ var _reactRouterDom = __webpack_require__(90);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MainPage = function MainPage() {
-
   return _react2.default.createElement(
     'div',
     null,
     _react2.default.createElement(
-      _reactRouterDom.Link,
-      { to: '/quiz/1' },
-      ' ',
+      'span',
+      null,
+      _react2.default.createElement('img', { src: '/images/horoeka.jpg', className: 'actual-img' })
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
       _react2.default.createElement(
-        'button',
-        { className: 'start-button' },
-        'Start Quiz'
+        _reactRouterDom.Link,
+        { to: '/quiz/1' },
+        ' ',
+        _react2.default.createElement(
+          'button',
+          { className: 'start-button' },
+          'Start Quiz'
+        )
       )
     )
   );

@@ -32,12 +32,20 @@ font-size: 50px;
 }
 
 .start-button {
-  background-color: black;
   text-align: center;
-  color: white;
+  color: black;
   padding: 15px 32px;
   display: inline-block;
   font-size: 24px;
   cursor: pointer;
   margin: 4px 2px;
+  border-radius: 25px;
+  border-color: black;
+  background-color: white;
+  font-family: 'Capriola', sans-serif;
+}
+
+.actual-img {
+  width: 15%;
+  height: auto;
 }
