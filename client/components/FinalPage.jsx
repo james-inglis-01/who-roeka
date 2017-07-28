@@ -5,12 +5,13 @@ import Score from './Score'
 function FinalPage (props) {
   return (
     <div className="finalPage">
-      <h1> Finished </h1>
-      <Score score={props.score}/>
+
+      <h1> Finnishd </h1>
+    <Score {...props}/>
+
     </div>
   )
 }
 
-    //
+export default finalPage
 
-export default FinalPage

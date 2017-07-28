@@ -1,6 +1,9 @@
 import React from 'react'
 import { render } from 'react-dom'
 
+
+import Footer from './Footer'
+
 class Questions extends React.Component {
   constructor(props) {
     super(props)
@@ -12,6 +15,10 @@ class Questions extends React.Component {
     if (correctAnswer === Number(selectedAnswer)) {
       this.props.incrementScore()
     }
+
+    console.log(this.props.numQuestions)
+    console.log(this.props.qid)
+
     const nextqid = Number(this.props.match.params.qid) + 1
     if (nextqid < this.props.numQuestions) {
       this.props.history.push('/quiz/' + nextqid)
@@ -35,11 +42,14 @@ class Questions extends React.Component {
 
                 <button onClick={this.assessAnswer} name={personObj.id}>
                   <img src={`/images/${personImg}.png`} name={personObj.id} />
-                </button>
-              </div>
-            )
+
+                </button></div>)
           })}
         </div>
+        <div>
+        <Footer score={this.props.score}/>
+          </div>
+
       </div>
     )
   }
