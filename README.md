@@ -1,2 +1,2 @@
 # who-roeka
-Come test your Horoeka Knowledge
+Come and test your Horoeka Knowledge with this interactive quiz.
